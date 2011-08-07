@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sprite>
+  <loop name="default" retidx="0">
+    <frame texture="bullet5.png" duration="1.0"/>
+  </loop>
+</sprite>

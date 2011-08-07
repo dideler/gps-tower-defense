@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010 Express for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPSTD_RM", "GPSTD_RM\GPSTD_RM\GPSTD_RM.csproj", "{73520226-23EC-401A-89BB-AB301A670F08}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "GPSTD_RMContent", "GPSTD_RM\GPSTD_RMContent\GPSTD_RMContent.contentproj", "{1E7BEED3-CA0E-422F-85D2-976552349975}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73520226-23EC-401A-89BB-AB301A670F08}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{73520226-23EC-401A-89BB-AB301A670F08}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{73520226-23EC-401A-89BB-AB301A670F08}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{73520226-23EC-401A-89BB-AB301A670F08}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{73520226-23EC-401A-89BB-AB301A670F08}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{73520226-23EC-401A-89BB-AB301A670F08}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+		{1E7BEED3-CA0E-422F-85D2-976552349975}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{1E7BEED3-CA0E-422F-85D2-976552349975}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
