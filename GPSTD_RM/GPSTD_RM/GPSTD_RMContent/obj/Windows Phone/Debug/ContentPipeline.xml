@@ -2,12 +2,21 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
+      <Source>myFont.spritefont</Source>
+      <Name>myFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Kaylen\Zombie-Invasion\GPSTD_RM\GPSTD_RM\GPSTD_RM\bin\Windows Phone\Debug\Content\myFont.xnb</Output>
+      <Time>2011-08-06T18:44:58.6613944-04:00</Time>
+    </Item>
+    <Item>
       <Source>button.mp3</Source>
       <Name>button</Name>
       <Importer>Mp3Importer</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Kaylen\Documents\Visual Studio 2010\Projects\GPSTD_RM\GPSTD_RM\GPSTD_RM\bin\Windows Phone\Debug\Content\button.xnb</Output>
+      <Output>C:\Users\Kaylen\Zombie-Invasion\GPSTD_RM\GPSTD_RM\GPSTD_RM\bin\Windows Phone\Debug\Content\button.xnb</Output>
       <Time>2011-08-04T17:29:55.9929836-04:00</Time>
     </Item>
     <Item>
@@ -16,17 +25,8 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Kaylen\Documents\Visual Studio 2010\Projects\GPSTD_RM\GPSTD_RM\GPSTD_RM\bin\Windows Phone\Debug\Content\menu.xnb</Output>
+      <Output>C:\Users\Kaylen\Zombie-Invasion\GPSTD_RM\GPSTD_RM\GPSTD_RM\bin\Windows Phone\Debug\Content\menu.xnb</Output>
       <Time>2011-08-04T17:29:56.1609932-04:00</Time>
-    </Item>
-    <Item>
-      <Source>myFont.spritefont</Source>
-      <Name>myFont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Kaylen\Documents\Visual Studio 2010\Projects\GPSTD_RM\GPSTD_RM\GPSTD_RM\bin\Windows Phone\Debug\Content\myFont.xnb</Output>
-      <Time>2011-08-06T18:44:58.6613944-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -34,10 +34,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Kaylen\Documents\Visual Studio 2010\Projects\GPSTD_RM\GPSTD_RM\GPSTD_RMContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Kaylen\Documents\Visual Studio 2010\Projects\GPSTD_RM\GPSTD_RM\GPSTD_RM\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Kaylen\Documents\Visual Studio 2010\Projects\GPSTD_RM\GPSTD_RM\GPSTD_RMContent\obj\Windows Phone\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Kaylen\Documents\Visual Studio 2010\Projects\GPSTD_RM\GPSTD_RM\GPSTD_RM\bin\Windows Phone\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Kaylen\Zombie-Invasion\GPSTD_RM\GPSTD_RM\GPSTD_RMContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Kaylen\Zombie-Invasion\GPSTD_RM\GPSTD_RM\GPSTD_RM\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Kaylen\Zombie-Invasion\GPSTD_RM\GPSTD_RM\GPSTD_RMContent\obj\Windows Phone\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Kaylen\Zombie-Invasion\GPSTD_RM\GPSTD_RM\GPSTD_RM\bin\Windows Phone\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

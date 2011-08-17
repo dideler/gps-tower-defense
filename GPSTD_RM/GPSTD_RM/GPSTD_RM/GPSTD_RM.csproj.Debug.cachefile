@@ -1,8 +1,6 @@
-Content\projectiles\ex1.xnb
-Content\projectiles\ex2.xnb
+Content\myFont.xnb
 Content\button.xnb
 Content\menu.xnb
-Content\myFont.xnb
 Content\back.png
 Content\black.png
 Content\blank.png
@@ -73,6 +71,8 @@ Content\projectiles\bullet2.xml
 Content\projectiles\bullet5.xml
 Content\projectiles\bullet3.xml
 Content\projectiles\bullet4.xml
+Content\projectiles\ex1.png
+Content\projectiles\ex2.png
 Content\projectiles\ex.xml
 Content\projectiles\laser.xml
 Content\towers\slow_tower.xml

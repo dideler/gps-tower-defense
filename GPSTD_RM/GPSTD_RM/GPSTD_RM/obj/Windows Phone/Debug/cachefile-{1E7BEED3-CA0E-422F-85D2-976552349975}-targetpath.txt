@@ -1,6 +1,6 @@
+Content\myFont.xnb
 Content\button.xnb
 Content\menu.xnb
-Content\myFont.xnb
 Content\back.png
 Content\black.png
 Content\blank.png
