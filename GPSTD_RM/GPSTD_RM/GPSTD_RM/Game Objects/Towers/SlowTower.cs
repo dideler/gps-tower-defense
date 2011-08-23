@@ -42,6 +42,7 @@ namespace GPSTD_RM
                 Range = 100,
                 ReloadTime = TimeSpan.FromSeconds(0.5),
                 AttackPower = 10,
+                ObjectSprite = new AnimatedSpriteInstance(GraphicsPool.SlowTower, "default")
             };
         }
 

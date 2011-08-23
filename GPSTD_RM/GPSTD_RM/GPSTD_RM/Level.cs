@@ -217,6 +217,7 @@ namespace GPSTD_RM
             updateBuffer = true;
 
             Towers = new List<Tower>();
+            Creeps = new LinkedList<Creep>();
         }
 
         #endregion

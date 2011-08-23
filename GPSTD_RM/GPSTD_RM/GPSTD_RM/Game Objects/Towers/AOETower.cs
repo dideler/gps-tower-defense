@@ -45,6 +45,7 @@ namespace GPSTD_RM
                 Radius = 50,
                 ReloadTime = TimeSpan.FromSeconds(2.0),
                 AttackPower = 10,
+                ObjectSprite = new AnimatedSpriteInstance(GraphicsPool.AOETower, "default")
             };
         }
 

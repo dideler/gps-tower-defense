@@ -137,10 +137,8 @@ namespace GPSTD_RM
             if (hp == 0)
             {
                 Alive = false;
-                //TODO: Should this be done a bit differently, perhaps...?
-                // Using the game state, perhaps...?
-                ((Game1)Game).money_text += moneyValue;
-                ((Game1)Game).score += pointValue;
+                GameState.Singleton.Money += moneyValue;
+                GameState.Singleton.Score += pointValue;
             }
         }
 
@@ -174,8 +172,7 @@ namespace GPSTD_RM
             if (CurrentLink == null)
             {
                 // DEAL DAMAGE
-                //TODO: Should this happen in the game state...?
-                ((Game1)Game).total_lives--;
+                GameState.Singleton.Lives--;
 
                 Alive = false;
             }

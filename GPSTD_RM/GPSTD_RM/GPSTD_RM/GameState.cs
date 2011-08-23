@@ -31,7 +31,7 @@ namespace GPSTD_RM
         #region Player-Related Fields
 
         public int Score { get; set; }
-        public int Money { get; set; }
+        public double Money { get; set; }
         public int Lives { get; set; }
 
         #endregion

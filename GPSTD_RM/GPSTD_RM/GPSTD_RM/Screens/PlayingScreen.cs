@@ -109,7 +109,11 @@ namespace GPSTD_RM
 
             spawnTexture2D = Helper.LoadTextureStream("Content\\spawner.png", gDev);
 
+            GraphicsPool.Spawner = spawnTexture2D;
+
             blank = Helper.LoadTextureStream("Content\\blank.png", gDev);
+
+            
 
             
 
@@ -164,6 +168,9 @@ namespace GPSTD_RM
                     }
                 }
             }
+
+            GameState.Singleton.CurrentLevel.PlaceTower(BasicTower.FactoryMake(theGame),
+                    new Vector2(300, 300), 20);
         }
 
         /// <summary>
@@ -321,10 +328,11 @@ namespace GPSTD_RM
                 theGame.screen = theGame.screens.Main;
                 theGame.screen.Load(theGame.GraphicsDevice);        
             }
-                    if (theGame.gameStartTime == 0.0)
-                    {
-                        theGame.gameStartTime = gameTime.TotalGameTime.Seconds;
-                    }
+            
+            if (theGame.gameStartTime == 0.0)
+            {
+                theGame.gameStartTime = gameTime.TotalGameTime.Seconds;    
+            }
 
                     if (theGame.numSpawners < (gameTime.TotalGameTime.Seconds - theGame.gameStartTime) / 15)
                     {
@@ -332,7 +340,6 @@ namespace GPSTD_RM
 
                         for (int attempt = 0; attempt < 1; attempt++)
                         {
-                            //TODO: Replace test level
                             int r = (new Random()).Next(GameState.Singleton.CurrentLevel.NewSpawners.Count);
                             SpawnPoint spawner = GameState.Singleton.CurrentLevel.NewSpawners.ElementAt(r);
                             if (!spawner.started)
@@ -346,7 +353,6 @@ namespace GPSTD_RM
 
 
                     // Cleen up all the dead creeps
-                    // TODO: Store these collections in the levels
                     if (GameState.Singleton.CurrentLevel.Creeps != null)
                     {
                         List<Creep> removes = new List<Creep>();

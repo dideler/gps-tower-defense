@@ -102,6 +102,7 @@ namespace GPSTD_RM
         public GameObject(Game game)
             : base(game)
         {
+            this.Batch = ((Game1)game).spriteBatch;
             Alive = true;
         }
 
@@ -140,8 +141,11 @@ namespace GPSTD_RM
         {
             base.Draw(gameTime);
 
-            //TODO: Appropriate coordinates and etc.
-            //TODO: Incorporate the sprites...?
+            Vector2 min = GameState.Singleton.LevelToPixel(new Vector2(Bounds.Min.X, Bounds.Min.Y));
+            Vector2 max = GameState.Singleton.LevelToPixel(new Vector2(Bounds.Max.X, Bounds.Max.Y));
+
+            Batch.Draw(ObjectTexture, Position, null, Color.White, Rotation, (new Vector2(ObjectTexture.Width / 2f, ObjectTexture.Height / 2f)),
+                1.0f, SpriteEffects.None, 0f);
         }
 
         #endregion
