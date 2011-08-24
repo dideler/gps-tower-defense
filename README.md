@@ -2,6 +2,7 @@ GPS Tower Defense
 =================
 
 GPS Tower Defense (working title) or GPSTD is a location based tower defense game for the Windows Phone 7.
+
 Although the name only implies GPS, various other methods are used for estimating the user's location.
 
 Getting Started
