@@ -17,7 +17,14 @@ Getting Started
 Additional Resources
 --------------------
 
+### Windows Phone
+
+[Jump Start: Windows Phone "Mango"](http://borntolearn.mslearn.net/wpmango/m/mediagallery/default.aspx?GalleryPostSort=Subject&PageIndex=1)
+
+### Game Dev
+
 [How To Program Independent Games](http://the-witness.net/news/2011/06/how-to-program-independent-games/)
 
-[WP7 Coding Resources](http://greatcanadianappathon.com/resources.php)
+### Miscellaneous
 
+[Resource compilation from GCA](http://www.cosc.brocku.ca/~di07ty/game_dev_resources.htm)
