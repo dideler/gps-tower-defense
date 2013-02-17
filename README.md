@@ -1,19 +1,23 @@
 GPS Tower Defense
 =================
 
-GPS Tower Defense (working title) or GPSTD is a location based tower defense game for the Windows Phone 7.
+GPSTD is a **location based** tower defense game for **Windows Phone 7** that was 
+created during the **48-hour** [Great Canadian Appathon](http://www.greatcanadianappathon.com) competition
+and placed **top 25**.
+
+Made by four cool dudes fueled on energy drinks:
+- **Graham Sharp** ([@pounddefine](https://github.com/pounddefine))
+- **Kaylen Wheeler** ([@JvJ](https://github.com/JvJ))
+- **Justin Masse** ([@justinmasse](https://github.com/justinmasse))
+- **Dennis Ideler** ([@dideler](https://github.com/dideler))
 
 Although the name only implies GPS, various other methods are used for estimating the user's location.
 
-Getting Started
----------------
+To get started, you'll need to install the [WP7 SDK](https://dev.windowsphone.com/en-US/downloadsdk).
 
-* [Set Up Git on Windows](http://help.github.com/win-set-up-git/)
-* [Learn Git](http://progit.org/book/)
-* [Set Up WP7 SDK](http://create.msdn.com/en-US/)
 
-Additional Resources
---------------------
+Useful Resources
+----------------
 
 ### Windows Phone
 
@@ -25,7 +29,7 @@ Additional Resources
 * [How To Program Independent Games](http://the-witness.net/news/2011/06/how-to-program-independent-games/)
 * [Intro to Programming Through Game Development Using MS XNA Game Studio](http://dl.dropbox.com/u/20771931/eBooks/IntroProgXNAGameStudio_eBook.pdf)
 
-### C#\
+### C sharp
 * [C# from Java (Orange Book)](http://dl.dropbox.com/u/20771931/eBooks/C%20Sharp%20from%20Java%20Orange%20Book%202009.pdf)
 * [C# Programming (Yellow Book)](http://dl.dropbox.com/u/20771931/eBooks/Rob%20Miles%20CSharp%20Yellow%20Book%202010.pdf)
 * [Windows Phone Programming in C# (Blue Book)](http://dl.dropbox.com/u/20771931/eBooks/Rob_Miles_Windows_Phone_Blue_Book.pdf)
