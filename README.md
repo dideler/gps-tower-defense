@@ -1,4 +1,4 @@
-GPS Tower Defense
+GPS Tower Defense by ![](GPSTD_RM/GPSTD_RM/GPSTD_RMContent/brocket_small.png)
 =================
 
 GPSTD is a **location based** tower defense game for **Windows Phone 7** that was 
