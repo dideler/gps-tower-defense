@@ -5,6 +5,9 @@ GPSTD is a **location based** tower defense game for **Windows Phone 7** that wa
 created during the **48-hour** [Great Canadian Appathon](http://www.greatcanadianappathon.com) competition
 and placed **top 25**.
 
+Enemies will traverse the many paths on a bing map of your current location
+and try to make their way towards you. You have to stop them dead in their tracks.
+
 Made by four cool dudes fueled on energy drinks:
 - **Graham Sharp** ([@pounddefine](https://github.com/pounddefine))
 - **Kaylen Wheeler** ([@JvJ](https://github.com/JvJ))
